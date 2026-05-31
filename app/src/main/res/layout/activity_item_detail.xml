@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/textDetailPostType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lost"
+            android:textStyle="bold"
+            android:textColor="#FF5722"
+            android:textSize="14sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:background="#FFE0B2"/>
+
+        <TextView
+            android:id="@+id/textDetailName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item name"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/textDetailTimeAgo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 days ago"
+            android:textSize="14sp"
+            android:textColor="#888888"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="20dp"/>
+
+        <ImageView
+            android:id="@+id/imageDetailPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:background="#EEEEEE"
+            android:visibility="gone"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CATEGORY"
+            android:textSize="12sp"
+            android:textColor="#888888"/>
+        <TextView
+            android:id="@+id/textDetailCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Electronics"
+            android:textSize="16sp"
+            android:textColor="#222222"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DESCRIPTION"
+            android:textSize="12sp"
+            android:textColor="#888888"/>
+        <TextView
+            android:id="@+id/textDetailDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="16sp"
+            android:textColor="#222222"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DATE"
+            android:textSize="12sp"
+            android:textColor="#888888"/>
+        <TextView
+            android:id="@+id/textDetailDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textSize="16sp"
+            android:textColor="#222222"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOCATION"
+            android:textSize="12sp"
+            android:textColor="#888888"/>
+        <TextView
+            android:id="@+id/textDetailLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textSize="16sp"
+            android:textColor="#222222"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PHONE"
+            android:textSize="12sp"
+            android:textColor="#888888"/>
+        <TextView
+            android:id="@+id/textDetailPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textSize="16sp"
+            android:textColor="#222222"
+            android:layout_marginBottom="32dp"/>
+
+        <Button
+            android:id="@+id/btnRemove"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REMOVE"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#D32F2F"
+            android:padding="14dp"/>
+
+    </LinearLayout>
+</ScrollView>
